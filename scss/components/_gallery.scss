@@ -1,0 +1,30 @@
+
+/* Styles for the gallery */
+
+.tz-gallery {
+    .thumbnail {
+        padding: 0;
+        margin-bottom: 20px;
+        border: none;
+    }
+    & img {
+        border-radius: 3px;
+        max-width: 100%;
+    }
+    .caption {
+        padding: 10px;
+        h3 {
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 0;
+        }
+        p {
+            margin: 0;
+            font-size:13px;
+        }
+    }
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}

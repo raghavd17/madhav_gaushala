@@ -47,6 +47,7 @@
 This file is used to contain all vendor imports.
 */
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css);
 /*
 This file is used to contain all abstracts imports.
 Files inside this folder can contain abstract settings, helpers or functions. They have no direct output.
@@ -590,6 +591,33 @@ body {
 }
 
 /* Thin out the marketing headings */
+/* Styles for the gallery */
+.tz-gallery .thumbnail {
+  padding: 0;
+  margin-bottom: 20px;
+  border: none;
+}
+.tz-gallery img {
+  border-radius: 3px;
+  max-width: 100%;
+}
+.tz-gallery .caption {
+  padding: 10px;
+}
+.tz-gallery .caption h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 0;
+}
+.tz-gallery .caption p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.baguetteBox-button {
+  background-color: transparent !important;
+}
+
 /*
 This file is used to contain all component imports.
 Files inside this folder can contain specific element styles and layout.
